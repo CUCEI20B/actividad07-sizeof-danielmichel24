@@ -28,6 +28,9 @@ int main() {
     if (cadena=="long"){
         cout << sizeof(long) << endl;
     }
+    else{
+        cout <<"Dime un tipo de dato uwu" << endl;
+    }
 
 
     return 0;
