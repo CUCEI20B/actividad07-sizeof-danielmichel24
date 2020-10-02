@@ -9,23 +9,23 @@ int main() {
     if (cadena=="int"){
         cout << sizeof(int) << endl;
     }
-    if (cadena=="char"){
+    else if (cadena=="char"){
         cout << sizeof(char) << endl;
     }
 
-    if (cadena=="short"){
+    else if (cadena=="short"){
         cout << sizeof(short) << endl;
     }
 
-    if (cadena=="float"){
+    else if (cadena=="float"){
         cout << sizeof(float) << endl;
     }
 
-    if (cadena=="double"){
+    else if (cadena=="double"){
         cout << sizeof(double) << endl;
     }
 
-    if (cadena=="long"){
+    else if (cadena=="long"){
         cout << sizeof(long) << endl;
     }
     else{
